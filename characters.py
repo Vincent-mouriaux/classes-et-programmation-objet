@@ -62,7 +62,6 @@ class Character:
         return defense_roll, self.health
 
 class Wizard(Character):
-
     magic_dice_max = 12
     bow_dice_max = 10
     sword_dice_max = 8
